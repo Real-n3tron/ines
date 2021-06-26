@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> INES </title>
+<style>
+
+
+	.Total-Part{
+	background-color:#00ffa7;
+	padding: 5px;        
+	text-align: center;
+	}
+	
+	.Total-Part a{
+	text-decoration: none;
+	color: black;
+	padding: 80px;
+	}
+	
+	.Container{
+	display: inline;           
+	position: relative;
+	}
+	
+	.Content a{
+	display: block;     <!--upor niche-->  
+	}
+	
+	.Content{
+	position: absolute;
+	background-color: #00d8ff;
+	left: 0px;
+	top: 30px;
+	text-align: left;
+	display: none;
+	}
+	
+	.Content a:hover{
+	background-color: #ff0000;
+
+	}
+	
+	.Container:hover .Content{
+	display: block;  
+	}
+* {box-sizing: border-box;}
+
+body {font-family: Verdana, sans-serif;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+
+. fade { -webkit-animation-name: fade; -webkit-animation-duration: 1.5s; animation-name: fade; animation-duration: 1.5s;}
+
+
+
+@-webkit-keyframes fade { from {opacity: .4} to {opacity: 1}
+}
+
+@keyframes fade { from {opacity: .4}
+
+to {opacity: 1}
+
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body bgcolor="#ffffff">
+	<img src="Ines.png"height="160"width="960"align="center">
+
+		 	<div class="Total-Part">
+
+   	  	<a href="#">Home</a>
+
+			<div class="Container">
+				
+				<a href="#">Achievements</a>
+					<div class="Content">
+						<a href="official.html">Official tournaments</a>
+						<a href="#">Unofficial tournaments</a>
+						<a href="#">Scrims</a>
+					</div>
+			</div>
+			
+			<div class="Container">
+			
+				<a href="#">About</a>
+				
+					<div class="Content">
+						<a href="Player.html">Players Info</a>
+						<a href="#">Management Info</a>
+						<a href="#">Gfx Designer </a>
+					</div>
+			</div>	
+			
+		<a href="#">Links</a></div>
+	
+			   <p><b>INERTIA E-SPORTS (Ines) is the first team of Bangladesh to qualify PMPL SOUTH ASIA S1.It's aslo the first team which has played all the PMPL from Bangladesh . Previous name of INERTIA E-SPORTS was Instict E-SPORTS(ines).</b></p>
+   <div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="3.jpg" style="width:100%;">
+  
+</div>
+<div class="mySlides fade">
+  
+  <img src="4.jpg" style="width:100%;">
+  
+</div>
+<div class="mySlides fade">
+    <img src="5.jpg" style="width:100%;">
+  
+</div>
+<div class="mySlides fade">
+    <img src="2.jpg" style="width:100%;">
+    </div>
+<div class="mySlides fade">
+   <img src="1.jpg" style="width:100%;"> 
+   </div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  
+  slides[slideIndex-1].style.display = "block";  
+  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+      <br>
+   <p><b> Owner of INERTIA E-SPORTS is<i> Tanvir Rahman(T34R).</i>The journey of INERTIA E-SPORTS begin
+   with PUBG MOBILE BANGLADESH CHALLENGE 2019.</b></p>
+   <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+   <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+ 
+   <div style="width:100%;height:180px; background-color:#000000;align:center">
+   </div>
+  
+
+</body>
+
+</html>
